@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					7939EAF41E2BDAE100B90B6B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7TEBS3L99P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TEBS3L99P;
 				INFOPLIST_FILE = Assign1Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guilherme.Assign1Calculator;
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TEBS3L99P;
 				INFOPLIST_FILE = Assign1Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guilherme.Assign1Calculator;
