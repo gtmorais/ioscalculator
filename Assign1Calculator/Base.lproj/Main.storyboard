@@ -48,6 +48,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="0T8-e8-X6o"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSw-Gq-9Ll">
                                 <rect key="frame" x="1" y="448" width="93" height="109"/>
@@ -56,6 +59,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="8CF-PX-wXk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJ9-MP-6qk">
                                 <rect key="frame" x="1" y="558" width="186" height="108"/>
@@ -64,6 +70,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="VXz-vu-hoo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Y-fd-Kx0">
                                 <rect key="frame" x="95" y="118" width="92" height="109"/>
@@ -91,6 +100,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="LBu-Xv-DOO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWG-7E-oZ1">
                                 <rect key="frame" x="95" y="448" width="92" height="109"/>
@@ -99,6 +111,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="mXf-Hj-g9L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gD1-Tz-cYf">
                                 <rect key="frame" x="188" y="118" width="93" height="109"/>
@@ -115,6 +130,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="zF6-of-fkR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4t-PY-RBZ">
                                 <rect key="frame" x="188" y="338" width="93" height="109"/>
@@ -123,6 +141,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="XBf-2j-hzc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gje-gO-hNY">
                                 <rect key="frame" x="188" y="448" width="93" height="109"/>
@@ -131,6 +152,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="suf-sJ-pBv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHM-eH-mmR">
                                 <rect key="frame" x="188" y="558" width="93" height="108"/>

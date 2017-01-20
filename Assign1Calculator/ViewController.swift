@@ -43,9 +43,6 @@ class ViewController: UIViewController {
     @IBAction func numberTap(_ sender: UIButton) {
         let stringValue:String? = sender.titleLabel?.text
         
-        
-        
-        
         if (operationTapped) {
             operationTapped = false
             currentValue = "0"
@@ -53,6 +50,25 @@ class ViewController: UIViewController {
         
         currentValue = currentValue.appending(stringValue!)
         showValue()
+    }
+    
+    
+    @IBAction func operationTapped(_ sender: UIButton) {
+//        //let stringOperation:String? = sender.titleLabel?.text
+//        currentValue = mainLabel.text!
+//        operationTapped = true
+//        
+//        switch (sender.titleLabel!.text!)
+//        {
+//        case "+" :
+//            currentOperation = operation.add
+//            break
+//        case "-" :
+//            currentOperation = operation.minus
+//            break
+//        default: break
+//        }
+
     }
     
 //    @IBAction func buttonTap(_ sender: UIButton) {
