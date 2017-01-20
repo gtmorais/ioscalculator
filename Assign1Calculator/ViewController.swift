@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func buttonTap(_ sender: UIButton) {
-        if (sender.value(forKey: <#T##String#>))
-    }
+//    @IBAction func buttonTap(_ sender: UIButton) {
+//        if (sender.value(forKey: <#T##String#>))
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
