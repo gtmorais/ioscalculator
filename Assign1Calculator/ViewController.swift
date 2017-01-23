@@ -9,7 +9,7 @@
 import UIKit
 
 enum operation {
-   case percent, add, minus, mult, none
+   case percent, add, minus, divide, mult, none
 }
 
 class ViewController: UIViewController {
@@ -54,20 +54,29 @@ class ViewController: UIViewController {
     
     
     @IBAction func operationTapped(_ sender: UIButton) {
-//        //let stringOperation:String? = sender.titleLabel?.text
-//        currentValue = mainLabel.text!
-//        operationTapped = true
-//        
-//        switch (sender.titleLabel!.text!)
-//        {
-//        case "+" :
-//            currentOperation = operation.add
-//            break
-//        case "-" :
-//            currentOperation = operation.minus
-//            break
-//        default: break
-//        }
+         var stringOp:String? = sender.titleLabel?.text
+        currentValue = mainLabel.text!
+        operationTapped = true
+        
+        switch (sender.titleLabel!.text!)
+        {
+        case "+" :
+            currentOperation = operation.add
+            break
+        case "-" :
+            currentOperation = operation.minus
+            break
+        case "x" :
+            currentOperation = operation.mult
+            break
+        case "÷" :
+            currentOperation = operation.divide
+            break
+        case "%" :
+            currentOperation = operation.percent
+            break
+        default: break
+        }
 
     }
     
