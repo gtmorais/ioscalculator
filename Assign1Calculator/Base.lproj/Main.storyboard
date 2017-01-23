@@ -29,6 +29,9 @@
                                 <state key="normal" title="A/C">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ACTapped:" destination="nez-uE-faG" eventType="touchUpInside" id="095-GS-3WR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLj-Tw-5jJ">
                                 <rect key="frame" x="1" y="227.5" width="92.5" height="109"/>
@@ -73,14 +76,6 @@
                                 <connections>
                                     <action selector="numberTap:" destination="nez-uE-faG" eventType="touchUpInside" id="VXz-vu-hoo"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Y-fd-Kx0">
-                                <rect key="frame" x="94.5" y="118" width="92.5" height="108.5"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
-                                <state key="normal" title="+/-">
-                                    <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9q-gH-kuh">
                                 <rect key="frame" x="94.5" y="227.5" width="92.5" height="109"/>
@@ -166,6 +161,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="periodTapped:" destination="nez-uE-faG" eventType="touchUpInside" id="P4d-YY-gwA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7B-DK-2Z5">
                                 <rect key="frame" x="281.5" y="118" width="92.5" height="108.5"/>
@@ -218,6 +216,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="equalTapped:" destination="nez-uE-faG" eventType="touchUpInside" id="ucq-0F-bQP"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MjW-kI-wM0">
                                 <rect key="frame" x="324" y="8" width="36" height="72"/>
@@ -229,6 +230,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Y-fd-Kx0">
+                                <rect key="frame" x="94" y="118" width="92.5" height="108.5"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="inverseSignalTapped:" destination="nez-uE-faG" eventType="touchUpInside" id="HC4-0v-62r"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.33817025871965189" green="0.55070171495682907" blue="0.96133407360406087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
